@@ -34,17 +34,31 @@ layout: core
     <h3>Navigation Tree</h3>
     <table>
     <tr><td>
-    <a href="../gap.html">Start</a>
+    <a href="{{ site.baseurl }}/index.html">Start</a>
     </td></tr>
     {% for item in site.data.nav.toc %}
-        <tr><td>&nbsp;&nbsp;<a href="{{ site.baseurl }}/{{item.url}}">{{item.section}}</a></td></tr>
+        {% if item.url == page.url %}
+            <tr><td>&nbsp;&nbsp;<a href="{{ site.baseurl }}{{item.url}}" class="currentsection">{{item.section}}</a></td></tr>
+        {% else %}
+            <tr><td>&nbsp;&nbsp;<a href="{{ site.baseurl }}{{item.url}}">{{item.section}}</a></td></tr>
+        {% endif %}
         {% if item.section == page.toc %} <!-- Make sure that toc with the right name occurs in super and subpages -->
             {% for subs in item.subsections %}
-                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}/{{subs.url}}">{{subs.page}}</a></td></tr>
+                {% if subs.url == page.url %}
+                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}{{subs.url}}" class="currentsection">{{subs.page}}</a></td></tr>
+                {% else %}
+                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}{{subs.url}}">{{subs.page}}</a></td></tr>
+                {% endif %}
                 {% if subs.subsubsections[0] %}
                     {% if subs.page == page.subtoc %}
                         {% for subsubs in subs.subsubsections %}
-                            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}/{{subsubs.url}}">{{subsubs.page}}</a></td></tr>
+                            {% if subsubs.url == page.url %}
+                            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="{{ site.baseurl }}{{subsubs.url}}" class="currentsection">{{subsubs.page}}</a></td></tr>
+                            {% else %}
+                                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="{{ site.baseurl }}{{subsubs.url}}">{{subsubs.page}}</a></td></tr>
+                            {% endif %}
                         {% endfor %}
                     {% endif %}
                 {% endif %}

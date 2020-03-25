@@ -1,100 +1,107 @@
 toc:
   - section: Downloads
-    url: Releases/index.html
+    url: /Releases/
   - section: Installation
-    url: Download/index.html
+    url: /Download/
     subsections:
       - page: Upgrading
-        url: Download/upgrade.html
+        url: /Download/upgrade.html
       - page: Installation instructions
-        url: Download/install.html
+        url: /Download/install.html
       - page: Archive Formats
-        url: Download/formats.html
+        url: /Download/formats.html
       - page: Tools needed
-        url: Download/tools.html
+        url: /Download/tools.html
       - page: Alternatives
-        url: Download/alternatives.html
+        url: /Download/alternatives.html
       - page: Copyright
-        url: Download/copyright.html
+        url: /Download/copyright.html
       - page: Release history
-        url: Download/Updates/index.html
+        url: /Download/Updates/
   - section: Overview
-    url: Overview/overview.html
+    url: /Overview/overview.html
     subsections:
       - page: Capabilities
-        url: Overview/Capabilities/capabilities.html
+        url: /Overview/Capabilities/capabilities.html
         subsubsections:
           - page: Basic
-            url: Overview/Capabilities/basic.html
+            url: /Overview/Capabilities/basic.html
           - page: Groups
-            url: Overview/Capabilities/groups.html
+            url: /Overview/Capabilities/groups.html
           - page: Perm Groups
-            url: Overview/Capabilities/permgroups.html
+            url: /Overview/Capabilities/permgroups.html
           - page: Fp Groups
-            url: Overview/Capabilities/fpgroups.html
+            url: /Overview/Capabilities/fpgroups.html
           - page: Polycyclic
-            url: Overview/Capabilities/polycyclic.html
+            url: /Overview/Capabilities/polycyclic.html
           - page: Representations
-            url: Overview/Capabilities/representations.html
+            url: /Overview/Capabilities/representations.html
           - page: Graphs
-            url: Overview/Capabilities/graphs.html
+            url: /Overview/Capabilities/graphs.html
           - page: Algebras
-            url: Overview/Capabilities/algebras.html
+            url: /Overview/Capabilities/algebras.html
           - page: Semigroups
-            url: Overview/Capabilities/semigroups.html
+            url: /Overview/Capabilities/semigroups.html
           - page: Words
-            url: Overview/Capabilities/words.html
+            url: /Overview/Capabilities/words.html
           - page: Further
-            url: Overview/Capabilities/further.html
+            url: /Overview/Capabilities/further.html
           - page: Links
-            url: Overview/Capabilities/links.html
+            url: /Overview/Capabilities/links.html
       - page: Interface
-        url: Overview/interface.html
+        url: /Overview/interface.html
   - section: Data Libraries
-    url: Datalib/datalib.html
+    url: /Datalib/datalib.html
     subsections:
         - page: Basic Groups
-          url: Datalib/basic.html
+          url: /Datalib/basic.html
         - page: Classical Groups
-          url: Datalib/classical.html
+          url: /Datalib/classical.html
         - page: Integral Groups
-          url: Datalib/imf.html
+          url: /Datalib/imf.html
         - page: Lie Algebras
-          url: Datalib/lie.html
+          url: /Datalib/lie.html
         - page: Perfect Groups
-          url: Datalib/perfect.html
+          url: /Datalib/perfect.html
   - section: Packages
+    url: /Packages/packages.html
   - section: Documentation
+    url: /Doc/doc.html
   - section: Contacts
-    url: Contacts/contacts.html
+    url: /Contacts/contacts.html
     subsections:
         - page: People 
-          url: Contacts/People/people.html
+          url: /Contacts/People/people.html
           subsubsections:
             - page: Authors
-              url: Contacts/People/authors.html
+              url: /Contacts/People/authors.html
             - page: Modules
-              url: Contacts/People/modules.html
+              url: /Contacts/People/modules.html
             - page: Support Group
-              url: Contacts/People/supportgroup.html
+              url: /Contacts/People/supportgroup.html
             - page: Council
-              url: Contacts/People/Council/council.html
+              url: /Contacts/People/Council/council.html
         - page: Centres
-          url: Contacts/centres.html
+          url: /Contacts/centres.html
         - page: Feedback
-          url: Contacts/publicationfeedback.html
+          url: /Contacts/publicationfeedback.html
         - page: Trouble
-          url: Contacts/trouble.html
+          url: /Contacts/trouble.html
         - page: Forum
-          url: Contacts/Forum/forum.html
+          url: /Contacts/Forum/forum.html
         - page: Citing GAP 
-          url: Contacts/cite.html
+          url: /Contacts/cite.html
         - page: Submit
-          url: Contacts/submit.html
+          url: /Contacts/submit.html
         - page: Funding
-          url: Contacts/funding.html
+          url: /Contacts/funding.html
         - page: Outside
-          url: Contacts/outside.html
-
+          url: /Contacts/outside.html
   - section: FAQ
+    url: /Faq/faq.html 
+    subsections: 
+
+
+
+    
   - section: GAP 3
