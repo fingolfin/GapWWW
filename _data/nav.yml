@@ -66,5 +66,35 @@ toc:
   - section: Packages
   - section: Documentation
   - section: Contacts
+    url: Contacts/contacts.html
+    subsections:
+        - page: People 
+          url: Contacts/People/people.html
+          subsubsections:
+            - page: Authors
+              url: Contacts/People/authors.html
+            - page: Modules
+              url: Contacts/People/modules.html
+            - page: Support Group
+              url: Contacts/People/supportgroup.html
+            - page: Council
+              url: Contacts/People/Council/council.html
+        - page: Centres
+          url: Contacts/centres.html
+        - page: Feedback
+          url: Contacts/publicationfeedback.html
+        - page: Trouble
+          url: Contacts/trouble.html
+        - page: Forum
+          url: Contacts/Forum/forum.html
+        - page: Citing GAP 
+          url: Contacts/cite.html
+        - page: Submit
+          url: Contacts/submit.html
+        - page: Funding
+          url: Contacts/funding.html
+        - page: Outside
+          url: Contacts/outside.html
+
   - section: FAQ
   - section: GAP 3
