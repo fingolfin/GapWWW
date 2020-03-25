@@ -51,6 +51,18 @@ toc:
       - page: Interface
         url: Overview/interface.html
   - section: Data Libraries
+    url: Datalib/datalib.html
+    subsections:
+        - page: Basic Groups
+          url: Datalib/basic.html
+        - page: Classical Groups
+          url: Datalib/classical.html
+        - page: Integral Groups
+          url: Datalib/imf.html
+        - page: Lie Algebras
+          url: Datalib/lie.html
+        - page: Perfect Groups
+          url: Datalib/perfect.html
   - section: Packages
   - section: Documentation
   - section: Contacts
