@@ -1,0 +1,58 @@
+toc:
+  - section: Downloads
+    url: Releases/index.html
+  - section: Installation
+    url: Download/index.html
+    subsections:
+      - page: Upgrading
+        url: Download/upgrade.html
+      - page: Installation instructions
+        url: Download/install.html
+      - page: Archive Formats
+        url: Download/formats.html
+      - page: Tools needed
+        url: Download/tools.html
+      - page: Alternatives
+        url: Download/alternatives.html
+      - page: Copyright
+        url: Download/copyright.html
+      - page: Release history
+        url: Download/Updates/index.html
+  - section: Overview
+    url: Overview/overview.html
+    subsections:
+      - page: Capabilities
+        url: Overview/Capabilities/capabilities.html
+        subsubsections:
+          - page: Basic
+            url: Overview/Capabilities/basic.html
+          - page: Groups
+            url: Overview/Capabilities/groups.html
+          - page: Perm Groups
+            url: Overview/Capabilities/permgroups.html
+          - page: Fp Groups
+            url: Overview/Capabilities/fpgroups.html
+          - page: Polycyclic
+            url: Overview/Capabilities/polycyclic.html
+          - page: Representations
+            url: Overview/Capabilities/representations.html
+          - page: Graphs
+            url: Overview/Capabilities/graphs.html
+          - page: Algebras
+            url: Overview/Capabilities/algebras.html
+          - page: Semigroups
+            url: Overview/Capabilities/semigroups.html
+          - page: Words
+            url: Overview/Capabilities/words.html
+          - page: Further
+            url: Overview/Capabilities/further.html
+          - page: Links
+            url: Overview/Capabilities/links.html
+      - page: Interface
+        url: Overview/interface.html
+  - section: Data Libraries
+  - section: Packages
+  - section: Documentation
+  - section: Contacts
+  - section: FAQ
+  - section: GAP 3
