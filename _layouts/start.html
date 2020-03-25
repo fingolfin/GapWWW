@@ -59,6 +59,19 @@ layout: core
                                 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <a href="{{ site.baseurl }}{{subsubs.url}}">{{subsubs.page}}</a></td></tr>
                             {% endif %}
+                            {% if subsubs.subsubsubsections[0] %}
+                                {% if subsubs.page == page.subsubtoc %}
+                                    {% for subsubsubs in subsubs.subsubsubsections %}
+                                        {% if subsubsubs.url == page.url %}
+                                            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a href="{{ site.baseurl }}{{subsubsubs.url}}" class="currentsection">{{subsubsubs.page}}</a></td></tr>
+                                        {% else %}
+                                            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a href="{{ site.baseurl }}{{subsubsubs.url}}">{{subsubsubs.page}}</a></td></tr>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                            {% endif %}
                         {% endfor %}
                     {% endif %}
                 {% endif %}

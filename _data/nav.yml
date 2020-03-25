@@ -115,3 +115,114 @@ toc:
       - page: Programming
         url: /Faq/faq.html#8
   - section: GAP 3
+    url: /Gap3/gap3.html
+    subsections:
+      - page: GAP 3 Status
+        url: /Gap3/status3.html
+      - page: GAP 3 to GAP 4
+        url: /Gap3/Changes3/changes.html
+      - page: GAP 3 Overview
+        url: /Gap3/Overview3/overview.html
+      - page: GAP 3 Download
+        url: /Gap3/Download3/download.html
+        subsubsections:
+          - page: Bug Fixes
+            url: /Gap3/Download3/bugfixes.html
+      - page: GAP 3 Data Libs
+        url: /Gap3/Datalib3/datalib.html
+        subsubsections:
+          - page: Small Groups
+            url: /Gap3/Datalib3/small.html
+          - page: Perfect Groups
+            url: /Gap3/Datalib3/perfect.html
+          - page: Transitive Groups
+            url: /Gap3/Datalib3/trans.html
+          - page: Primitive Groups
+            url: /Gap3/Datalib3/prim1.html
+          - page: Sol. Prim. Groups
+            url: /Gap3/Datalib3/prim2.html
+          - page: Irred. Groups
+            url: /Gap3/Datalib3/irreduc.html
+          - page: Integral Groups
+            url: /Gap3/Datalib3/imf.html
+          - page: Space Groups
+            url: /Gap3/Datalib3/space.html
+          - page: Tables of Marks
+            url: /Gap3/Datalib3/tom.html
+          - page: Character Tables
+            url: /Gap3/Datalib3/chartab.html
+      - page: GAP 3 Packages
+        url: /Gap3/Packages3/packages.html
+        subsubsections:
+          - page: ANUPQ
+            url: /Gap3/Packages3/anupq.html
+          - page: ANUSQ
+            url: /Gap3/Packages3/anusq.html
+          - page: AREP
+            url: /Gap3/Packages3/arep.html
+          - page: AutAG
+            url: /Gap3/Packages3/autag.html
+          - page: CHEVIE
+            url: /Gap3/Packages3/chevie.html
+          - page: Cohomolo
+            url: /Gap3/Packages3/cohomolo.html
+          - page: CrystGAP
+            url: /Gap3/Packages3/cryst.html
+          - page: DCE
+            url: /Gap3/Packages3/dce.html
+          - page: GLISSANDO
+            url: /Gap3/Packages3/gliss.html
+          - page: GRAPE
+            url: /Gap3/Packages3/grape.html
+          - page: GRIM
+            url: /Gap3/Packages3/grim.html
+          - page: GUAVA
+            url: /Gap3/Packages3/guava.html
+          - page: KBMAG
+            url: /Gap3/Packages3/kbmag.html
+          - page: Matrix
+            url: /Gap3/Packages3/matrix.html
+          - page: MeatAxe
+            url: /Gap3/Packages3/meataxe.html
+          - page: MONOID
+            url: /Gap3/Packages3/monoid.html
+          - page: MOP
+            url: /Gap3/Packages3/mop.html
+          - page: NQ
+            url: /Gap3/Packages3/nq.html
+          - page: PCQA
+            url: /Gap3/Packages3/pcqa.html
+          - page: SISYPHOS
+            url: /Gap3/Packages3/sisyphos.html
+          - page: Smash
+            url: /Gap3/Packages3/smash.html
+          - page: Specht
+            url: /Gap3/Packages3/specht.html
+          - page: VE
+            url: /Gap3/Packages3/ve.html
+          - page: Weyl
+            url: /Gap3/Packages3/weyl.html
+          - page: XGAP
+            url: /Gap3/Packages3/xgap.html
+          - page: XMod
+            url: /Gap3/Packages3/xmod.html
+      - page: GAP 3 Contrib
+        url: /Gap3/Contrib3/contrib.html
+      - page: GAP 3 Documentation
+        url: /Gap3/Doc3/doc.html
+        subsubsections:
+          - page: GAP 3 Manual
+            url: /Gap3/Doc3/manual.html
+          - page: GAP 3 Examples
+            url: /Gap3/Doc3/Examples3/examples.html
+            subsubsubsections:
+              - page: Rubik's Cube
+                url: /Gap3/Doc3/Examples3/rubik.html
+              - page: Cavicchioli
+                url: /Gap3/Doc3/Examples3/cavicchioli.html
+              - page: Higman-Sims
+                url: /Gap3/Doc3/Examples3/higman.html
+              - page: Co3
+                url: /Gap3/Doc3/Examples3/co3.html
+      - page: Citing GAP 3
+        url: /Gap3/cite3.html
