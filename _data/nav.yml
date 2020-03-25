@@ -100,8 +100,18 @@ toc:
   - section: FAQ
     url: /Faq/faq.html 
     subsections: 
-
-
-
-    
+      - page: General
+        url: /Faq/faq.html#1
+      - page: Obtaining
+        url: /Faq/faq.html#2
+      - page: Installation
+        url: /Faq/faq.html#3
+      - page: Usage
+        url: /Faq/faq.html#5
+      - page: Complaints
+        url: /Faq/faq.html#6
+      - page: Computing
+        url: /Faq/faq.html#7
+      - page: Programming
+        url: /Faq/faq.html#8
   - section: GAP 3
