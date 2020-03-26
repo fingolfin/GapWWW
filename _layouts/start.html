@@ -43,42 +43,45 @@ layout: core
             {% else %}
                 <tr><td>&nbsp;&nbsp;<a href="{{ site.baseurl }}{{item.url}}">{{item.section}}</a></td></tr>
             {% endif %}
-            {% if item.section == page.toc %} <!-- Make sure that toc with the right name occurs in super and subpages -->
-                {% if item.subsections %}
-                    {% for subs in item.subsections %}
-                        {% if subs.url == page.url %}
-                            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}{{subs.url}}" class="currentsection">{{subs.page}}</a></td></tr>
-                        {% else %}
-                            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}{{subs.url}}">{{subs.page}}</a></td></tr>
+            {% if item.section != page.toc %} <!-- Make sure that toc with the right name occurs in super and subpages -->
+                {% continue %}
+            {% endif %}
+            {% if item.subsections %}
+                {% for subs in item.subsections %}
+                    {% if subs.url == page.url %}
+                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}{{subs.url}}" class="currentsection">{{subs.page}}</a></td></tr>
+                    {% else %}
+                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}{{subs.url}}">{{subs.page}}</a></td></tr>
+                    {% endif %}
+                    {% if subs.subsubsections %}
+                        {% if subs.page != page.subtoc %}
+                            {% continue %}
                         {% endif %}
-                        {% if subs.subsubsections %}
-                            {% if subs.page == page.subtoc %}
-                                {% for subsubs in subs.subsubsections %}
-                                    {% if subsubs.url == page.url %}
-                                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <a href="{{ site.baseurl }}{{subsubs.url}}" class="currentsection">{{subsubs.page}}</a></td></tr>
+                        {% for subsubs in subs.subsubsections %}
+                            {% if subsubs.url == page.url %}
+                                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="{{ site.baseurl }}{{subsubs.url}}" class="currentsection">{{subsubs.page}}</a></td></tr>
+                            {% else %}
+                                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="{{ site.baseurl }}{{subsubs.url}}">{{subsubs.page}}</a></td></tr>
+                            {% endif %}
+                            {% if subsubs.subsubsubsections %}
+                                {% if subsubs.page != page.subsubtoc %}
+                                    {% continue %}
+                                {% endif %}
+                                {% for subsubsubs in subsubs.subsubsubsections %}
+                                    {% if subsubsubs.url == page.url %}
+                                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="{{ site.baseurl }}{{subsubsubs.url}}" class="currentsection">{{subsubsubs.page}}</a></td></tr>
                                     {% else %}
-                                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <a href="{{ site.baseurl }}{{subsubs.url}}">{{subsubs.page}}</a></td></tr>
-                                    {% endif %}
-                                    {% if subsubs.subsubsubsections %}
-                                        {% if subsubs.page == page.subsubtoc %}
-                                            {% for subsubsubs in subsubs.subsubsubsections %}
-                                                {% if subsubsubs.url == page.url %}
-                                                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <a href="{{ site.baseurl }}{{subsubsubs.url}}" class="currentsection">{{subsubsubs.page}}</a></td></tr>
-                                                {% else %}
-                                                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <a href="{{ site.baseurl }}{{subsubsubs.url}}">{{subsubsubs.page}}</a></td></tr>
-                                                {% endif %}
-                                            {% endfor %}
-                                        {% endif %}
+                                        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="{{ site.baseurl }}{{subsubsubs.url}}">{{subsubsubs.page}}</a></td></tr>
                                     {% endif %}
                                 {% endfor %}
                             {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
             {% endif %}
         {% endfor %}
     {% endif %}
