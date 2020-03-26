@@ -1,23 +1,31 @@
 toc:
   - section: Downloads
     url: /Releases/
+    subsections: nil
   - section: Installation
     url: /Download/
     subsections:
       - page: Upgrading
         url: /Download/upgrade.html
+        subsubsections: nil
       - page: Installation instructions
         url: /Download/install.html
+        subsubsections: nil
       - page: Archive Formats
         url: /Download/formats.html
+        subsubsections: nil
       - page: Tools needed
         url: /Download/tools.html
+        subsubsections: nil
       - page: Alternatives
         url: /Download/alternatives.html
+        subsubsections: nil
       - page: Copyright
         url: /Download/copyright.html
+        subsubsections: nil
       - page: Release history
         url: /Download/Updates/
+        subsubsections: nil
   - section: Overview
     url: /Overview/overview.html
     subsections:
@@ -26,45 +34,82 @@ toc:
         subsubsections:
           - page: Basic
             url: /Overview/Capabilities/basic.html
+            subsubsubsections: nil
           - page: Groups
             url: /Overview/Capabilities/groups.html
+            subsubsubsections: nil
           - page: Perm Groups
             url: /Overview/Capabilities/permgroups.html
+            subsubsubsections: nil
           - page: Fp Groups
             url: /Overview/Capabilities/fpgroups.html
+            subsubsubsections: nil
           - page: Polycyclic
             url: /Overview/Capabilities/polycyclic.html
+            subsubsubsections: nil
           - page: Representations
             url: /Overview/Capabilities/representations.html
+            subsubsubsections: nil
           - page: Graphs
             url: /Overview/Capabilities/graphs.html
+            subsubsubsections: nil
           - page: Algebras
             url: /Overview/Capabilities/algebras.html
+            subsubsubsections: nil
           - page: Semigroups
             url: /Overview/Capabilities/semigroups.html
+            subsubsubsections: nil
           - page: Words
             url: /Overview/Capabilities/words.html
+            subsubsubsections: nil
           - page: Further
             url: /Overview/Capabilities/further.html
+            subsubsubsections: nil
           - page: Links
             url: /Overview/Capabilities/links.html
+            subsubsubsections: nil
       - page: Interface
         url: /Overview/interface.html
+        subsubsections: nil
   - section: Data Libraries
     url: /Datalib/datalib.html
     subsections:
         - page: Basic Groups
           url: /Datalib/basic.html
+          subsubsections: nil
         - page: Classical Groups
           url: /Datalib/classical.html
+          subsubsections: nil
         - page: Integral Groups
           url: /Datalib/imf.html
+          subsubsections: nil
         - page: Lie Algebras
           url: /Datalib/lie.html
+          subsubsections: nil
         - page: Perfect Groups
           url: /Datalib/perfect.html
+          subsubsections: nil
   - section: Packages
     url: /Packages/packages.html
+    subsections: nil
+  - section: Documentation
+    url: /Doc/doc.html
+    subsections:
+      - page: Search
+        url: /Doc/search.html
+        subsubsections: nil
+      - page: Manuals
+        url: /Doc/manuals.html
+        subsubsections: nil
+      - page: Learning
+        url: /Doc/Learning/learning.html
+        subsubsections:
+        - page: Russian
+          url: /Doc/Learning/russian.html
+          subsubsubsections: nil
+      - page: Teaching
+        url: /Doc/Teaching/teaching.html
+        subsubsections: nil
   - section: Contacts
     url: /Contacts/contacts.html
     subsections:
@@ -73,144 +118,205 @@ toc:
           subsubsections:
             - page: Authors
               url: /Contacts/People/authors.html
+              subsubsubsections: nil
             - page: Modules
               url: /Contacts/People/modules.html
+              subsubsubsections: nil
             - page: Support Group
               url: /Contacts/People/supportgroup.html
+              subsubsubsections: nil
             - page: Council
               url: /Contacts/People/Council/council.html
+              subsubsubsections: nil
         - page: Centres
           url: /Contacts/centres.html
+          subsubsections: nil
         - page: Feedback
           url: /Contacts/publicationfeedback.html
+          subsubsections: nil
         - page: Trouble
           url: /Contacts/trouble.html
+          subsubsections: nil
         - page: Forum
           url: /Contacts/Forum/forum.html
+          subsubsections: nil
         - page: Citing GAP 
           url: /Contacts/cite.html
+          subsubsections: nil
         - page: Submit
           url: /Contacts/submit.html
+          subsubsections: nil
         - page: Funding
           url: /Contacts/funding.html
+          subsubsections: nil
         - page: Outside
           url: /Contacts/outside.html
+          subsubsections: nil
   - section: FAQ
     url: /Faq/faq.html 
     subsections: 
       - page: General
         url: /Faq/faq.html#1
+        subsubsections: nil
       - page: Obtaining
         url: /Faq/faq.html#2
+        subsubsections: nil
       - page: Installation
         url: /Faq/faq.html#3
+        subsubsections: nil
       - page: Usage
         url: /Faq/faq.html#5
+        subsubsections: nil
       - page: Complaints
         url: /Faq/faq.html#6
+        subsubsections: nil
       - page: Computing
         url: /Faq/faq.html#7
+        subsubsections: nil
       - page: Programming
         url: /Faq/faq.html#8
+        subsubsections: nil
   - section: GAP 3
     url: /Gap3/gap3.html
     subsections:
       - page: GAP 3 Status
         url: /Gap3/status3.html
+        subsubsections: nil
       - page: GAP 3 to GAP 4
         url: /Gap3/Changes3/changes.html
+        subsubsections: nil
       - page: GAP 3 Overview
         url: /Gap3/Overview3/overview.html
+        subsubsections: nil
       - page: GAP 3 Download
         url: /Gap3/Download3/download.html
         subsubsections:
           - page: Bug Fixes
             url: /Gap3/Download3/bugfixes.html
+            subsubsubsections: nil
       - page: GAP 3 Data Libs
         url: /Gap3/Datalib3/datalib.html
         subsubsections:
           - page: Small Groups
             url: /Gap3/Datalib3/small.html
+            subsubsubsections: nil
           - page: Perfect Groups
             url: /Gap3/Datalib3/perfect.html
+            subsubsubsections: nil
           - page: Transitive Groups
             url: /Gap3/Datalib3/trans.html
+            subsubsubsections: nil
           - page: Primitive Groups
             url: /Gap3/Datalib3/prim1.html
+            subsubsubsections: nil
           - page: Sol. Prim. Groups
             url: /Gap3/Datalib3/prim2.html
+            subsubsubsections: nil
           - page: Irred. Groups
             url: /Gap3/Datalib3/irreduc.html
+            subsubsubsections: nil
           - page: Integral Groups
             url: /Gap3/Datalib3/imf.html
+            subsubsubsections: nil
           - page: Space Groups
             url: /Gap3/Datalib3/space.html
+            subsubsubsections: nil
           - page: Tables of Marks
             url: /Gap3/Datalib3/tom.html
+            subsubsubsections: nil
           - page: Character Tables
             url: /Gap3/Datalib3/chartab.html
+            subsubsubsections: nil
       - page: GAP 3 Packages
         url: /Gap3/Packages3/packages.html
         subsubsections:
           - page: ANUPQ
             url: /Gap3/Packages3/anupq.html
+            subsubsubsections: nil
           - page: ANUSQ
             url: /Gap3/Packages3/anusq.html
+            subsubsubsections: nil
           - page: AREP
             url: /Gap3/Packages3/arep.html
+            subsubsubsections: nil
           - page: AutAG
             url: /Gap3/Packages3/autag.html
+            subsubsubsections: nil
           - page: CHEVIE
             url: /Gap3/Packages3/chevie.html
+            subsubsubsections: nil
           - page: Cohomolo
             url: /Gap3/Packages3/cohomolo.html
+            subsubsubsections: nil
           - page: CrystGAP
             url: /Gap3/Packages3/cryst.html
+            subsubsubsections: nil
           - page: DCE
             url: /Gap3/Packages3/dce.html
+            subsubsubsections: nil
           - page: GLISSANDO
             url: /Gap3/Packages3/gliss.html
+            subsubsubsections: nil
           - page: GRAPE
             url: /Gap3/Packages3/grape.html
+            subsubsubsections: nil
           - page: GRIM
             url: /Gap3/Packages3/grim.html
+            subsubsubsections: nil
           - page: GUAVA
             url: /Gap3/Packages3/guava.html
+            subsubsubsections: nil
           - page: KBMAG
             url: /Gap3/Packages3/kbmag.html
+            subsubsubsections: nil
           - page: Matrix
             url: /Gap3/Packages3/matrix.html
+            subsubsubsections: nil
           - page: MeatAxe
             url: /Gap3/Packages3/meataxe.html
+            subsubsubsections: nil
           - page: MONOID
             url: /Gap3/Packages3/monoid.html
+            subsubsubsections: nil
           - page: MOP
             url: /Gap3/Packages3/mop.html
+            subsubsubsections: nil
           - page: NQ
             url: /Gap3/Packages3/nq.html
+            subsubsubsections: nil
           - page: PCQA
             url: /Gap3/Packages3/pcqa.html
+            subsubsubsections: nil
           - page: SISYPHOS
             url: /Gap3/Packages3/sisyphos.html
+            subsubsubsections: nil
           - page: Smash
             url: /Gap3/Packages3/smash.html
+            subsubsubsections: nil
           - page: Specht
             url: /Gap3/Packages3/specht.html
+            subsubsubsections: nil
           - page: VE
             url: /Gap3/Packages3/ve.html
+            subsubsubsections: nil
           - page: Weyl
             url: /Gap3/Packages3/weyl.html
+            subsubsubsections: nil
           - page: XGAP
             url: /Gap3/Packages3/xgap.html
+            subsubsubsections: nil
           - page: XMod
             url: /Gap3/Packages3/xmod.html
+            subsubsubsections: nil
       - page: GAP 3 Contrib
         url: /Gap3/Contrib3/contrib.html
+        subsubsections: nil
       - page: GAP 3 Documentation
         url: /Gap3/Doc3/doc.html
         subsubsections:
           - page: GAP 3 Manual
             url: /Gap3/Doc3/manual.html
+            subsubsubsections: nil
           - page: GAP 3 Examples
             url: /Gap3/Doc3/Examples3/examples.html
             subsubsubsections:
@@ -224,15 +330,4 @@ toc:
                 url: /Gap3/Doc3/Examples3/co3.html
       - page: Citing GAP 3
         url: /Gap3/cite3.html  
-  - section: Documentation
-    url: /Doc/doc.html
-    subsections:
-      - page: Search
-        url: /Doc/search.html
-      - page: Manuals
-        url: /Doc/manuals.html
-      - page: Learning
-        url: /Doc/Learning/learning.html
-        subsubsection:
-        - page: Russian
-          url: /Doc/Learning/russian.html
+        subsubsections: nil
