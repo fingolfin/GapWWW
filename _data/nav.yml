@@ -65,8 +65,6 @@ toc:
           url: /Datalib/perfect.html
   - section: Packages
     url: /Packages/packages.html
-  - section: Documentation
-    url: /Doc/doc.html
   - section: Contacts
     url: /Contacts/contacts.html
     subsections:
@@ -225,5 +223,16 @@ toc:
               - page: Co3
                 url: /Gap3/Doc3/Examples3/co3.html
       - page: Citing GAP 3
-        url: /Gap3/cite3.html
-        
+        url: /Gap3/cite3.html  
+  - section: Documentation
+    url: /Doc/doc.html
+    subsections:
+      - page: Search
+        url: /Doc/search.html
+      - page: Manuals
+        url: /Doc/manuals.html
+      - page: Learning
+        url: /Doc/Learning/learning.html
+        subsubsection:
+        - page: Russian
+          url: /Doc/Learning/russian.html
