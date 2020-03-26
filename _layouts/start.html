@@ -36,6 +36,7 @@ layout: core
     <tr><td>
     <a href="{{ site.baseurl }}/index.html">Start</a>
     </td></tr>
+    {% if page.toc %}
     {% for item in site.data.nav.toc %}
         {% if item.url == page.url %}
             <tr><td>&nbsp;&nbsp;<a href="{{ site.baseurl }}{{item.url}}" class="currentsection">{{item.section}}</a></td></tr>
@@ -78,6 +79,7 @@ layout: core
             {% endfor %}
         {% endif %}
     {% endfor %}
+    {% endif %}
     </table>
 </td>
 
