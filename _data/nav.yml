@@ -23,9 +23,6 @@ toc:
       - page: Copyright
         url: /Download/copyright.html
         subsubsections: []
-      - page: Release history
-        url: /Download/Updates/
-        subsubsections: []
   - section: Overview
     url: /Overview/overview.html
     subsections:
