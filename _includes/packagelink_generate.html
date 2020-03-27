@@ -22,5 +22,6 @@
 {% endfor %}
 {% assign persons = persons | split: "|" | join: ", " %}
 
-<a href="{{ site.baseurl }}/Packages/{{ pkg.name | downcase }}.html">{{ pkg.name }}</a>&nbsp;&nbsp;{{ pkg.version }} ({{ pkg.date | date: "%d/%m/%Y" }}) by {{ persons }}
-    <br />{{ pkg.description }}
+<a href="{{ "/Packages/" | append: pkg.name-lowercase | append: ".html" | relative_url }}">{{ pkg.name }}</a>&nbsp;&nbsp;
+{{ pkg.version }} ({{ pkg.date | date: "%d/%m/%Y" }}) by {{ persons }}
+<br />{{ pkg.description }}

@@ -2,7 +2,8 @@
 layout: start
 ---
 
-{% capture manual %}{{ site.baseurl }}/Manuals/pkg/{{ page.dirname }}{% endcapture %}
+{% capture manual %}/Manuals/pkg/{{ page.dirname }}{% endcapture %}
+{% assign manual = manual | relative_url %}
 
 <h2>GAP package {{ page.name }}</h2>
 

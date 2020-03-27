@@ -1,1 +1,1 @@
-<a href="{{ site.baseurl }}/Manuals/{{ site.data.help[include.manual] }}"><span class="code">{{ include.text }}</span></a>
+<a href="{{ "/Manuals/" | append: site.data.help[include.manual] | relative_url }}"><span class="code">{{ include.text }}</span></a>
